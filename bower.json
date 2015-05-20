@@ -1,0 +1,24 @@
+{
+  "name": "Simple-IQ-Testing",
+  "version": "0.0.1",
+  "homepage": "https://github.com/IPRIT/simple-iq-testing",
+  "authors": [
+    "Alex <ipritoflex@yandex.ru>"
+  ],
+  "description": "Material Design",
+  "main": "index.html",
+  "keywords": [
+    "material"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-material-design": "~0.3.0"
+  }
+}

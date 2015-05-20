@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=RobotoDraft:400,400italic,500,700&subset=cyrillic,cyrillic-ext,latin);
+
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "RobotoDraft", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+li, ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+.page {
+    height: 100%;
+    position: relative;
+}
+.page__header {
+    height: 30%;
+    background: #4D8CBF;
+}
+.page__content {
+    width: 600px;
+    margin: 0 auto;
+}
+.iq__content__task {
+    overflow: hidden;
+    padding: 10px;
+}
+.offset-content {
+    position: relative;
+    top: -120px;
+}
+.iq__header__username {
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    color: #FFF;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.iq__header__username.iq__name {
+    top: 19px;
+    right: 21px;
+}
+.iq__header__brand {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+    color: #FFF;
+    font-size: 27px;
+}
+.iq__header__title {
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+}
+.iq__content {
+    background-color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 27px;
+}
+.iq__content__title h3 {
+    font-weight: 500;
+}
+.form-block {
+    overflow: hidden;
+    padding: 10px 0;
+}
+.iq__content__title {
+    padding: 0 0 0 23px;
+}
+.iq__content__description {
+    padding: 0 0 0 24px;
+}
+.iq__fill-sequence__numbers {
+    display: inline-block;
+    vertical-align: top;
+    padding: 13px 0 13px 16px;
+    font-size: 17px;
+}
+.iq__fill-sequence__field {
+    display: inline-block;
+    vertical-align: top;
+}
